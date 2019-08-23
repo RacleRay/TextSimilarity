@@ -31,5 +31,3 @@ Text similarity projects.      To be continued...
    > 1. 将字vec和词vec特征共同输入；
    > 2. embedding层可以使用类似scheduled sampling的方法，整合开放训练embedding带来的拟合效果和不开放embedding带来的更好的泛化效果（前提是
    使用了预训练的embedding）
-   
-模型相关文件比较大，没有上传，可邮件<racleme@outlook.com>
