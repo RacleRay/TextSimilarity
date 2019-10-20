@@ -31,3 +31,12 @@ Text similarity projects.      To be continued...
    > 1. 将字vec和词vec特征共同输入；
    > 2. embedding层可以使用类似scheduled sampling的方法，整合开放训练embedding带来的拟合效果和不开放embedding带来的更好的泛化效果（前提是
    使用了预训练的embedding）
+   
+ ## [SiameseNetwork](SiameseNetwork/)
+   模型运行环境：
+   > - python 3.6
+   > - tensorflow-gpu >= 1.4.0
+   
+   模型详解见SiameseNetwork/文件夹。核心思路是，将两句话经过LSTM序列模型编码之后的hidden state的L1 norm作为相似度量，最小化预测相似度与实际相关性的mean square error。
+   
+   原模型结构简单，效果并没有模型1的效果好。对模型进行加深或者做其他一些修改，应该会提升表现。
