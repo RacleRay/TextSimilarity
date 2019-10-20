@@ -1,5 +1,5 @@
 # TextSimilarity
-Text similarity projects.      To be continued...         
+Text similarity projects. 
 
 ## 1. [短文本相似性](短文本相似性/)
    
